@@ -14,6 +14,17 @@ include(hunter_pick_scheme)
 # List of versions here...
 
 hunter_add_version(
+        PACKAGE_NAME
+        OpenCV
+        VERSION
+        "4.2.0-t0"
+        URL
+        "https://github.com/cpp-pm/opencv/archive/4.2.0.tar.gz"
+        SHA1
+        6b4af554adf0f554912490eb401f6b7fa8859dde
+)
+
+hunter_add_version(
     PACKAGE_NAME
     OpenCV
     VERSION
@@ -23,7 +34,6 @@ hunter_add_version(
     SHA1
     9df096bd5afd6fa7dc02651491a1de04b46b4556
 )
-
 
 hunter_add_version(
     PACKAGE_NAME

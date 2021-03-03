@@ -8,6 +8,17 @@ include(hunter_download)
 include(hunter_pick_scheme)
 
 hunter_add_version(
+        PACKAGE_NAME
+        OpenCV-Extra
+        VERSION
+        "4.2.0"
+        URL
+        "https://github.com/opencv/opencv_contrib/archive/4.2.0.tar.gz"
+        SHA1
+        4871cfbf5c0e8ee9fb5a5a122bc55ed785ef2b4a
+)
+
+hunter_add_version(
     PACKAGE_NAME
     OpenCV-Extra
     VERSION
