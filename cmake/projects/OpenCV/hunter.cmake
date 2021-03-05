@@ -17,6 +17,17 @@ hunter_add_version(
         PACKAGE_NAME
         OpenCV
         VERSION
+        "4.2.0-t1"
+        URL
+        "https://github.com/DEEP-IMPACT-AG/opencv/archive/4.2.0-t1.tar.gz"
+        SHA1
+        7900e0700937dfec95649ff8fb7a9e702e222a87
+)
+
+hunter_add_version(
+        PACKAGE_NAME
+        OpenCV
+        VERSION
         "4.2.0-t0"
         URL
         "https://github.com/cpp-pm/opencv/archive/4.2.0.tar.gz"
