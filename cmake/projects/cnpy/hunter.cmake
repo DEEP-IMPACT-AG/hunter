@@ -11,9 +11,9 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
         PACKAGE_NAME cnpy
-        VERSION 1.0.1
-        URL "https://github.com/DEEP-IMPACT-AG/cnpy/archive/v1.0.1.tar.gz"
-        SHA1 "a62133b85ffccb8333cf16dcac8a13c515eab3f9"
+        VERSION 1.0.2
+        URL "https://github.com/DEEP-IMPACT-AG/cnpy/archive/v1.0.2.tar.gz"
+        SHA1 "1a1fc6e1b66ced281aa2af28e0a76200c946ce48"
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
