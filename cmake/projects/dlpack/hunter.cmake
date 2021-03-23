@@ -79,6 +79,17 @@ hunter_add_version(
     PACKAGE_NAME
     dlpack
     VERSION
+    "0.3"
+    URL
+    "https://github.com/dmlc/dlpack/archive/refs/tags/v0.3.tar.gz"
+    SHA1
+    75afc586cc6cc0f5ba15edc78360ce34d675be83
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    dlpack
+    VERSION
     "0.4"
     URL
     "https://github.com/dmlc/dlpack/archive/refs/tags/v0.4.tar.gz"

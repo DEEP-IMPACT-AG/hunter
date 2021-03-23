@@ -244,7 +244,9 @@ hunter_default_version(dbus VERSION 1.10.0-hunter-4)
 hunter_default_version(debug_assert VERSION 1.3.2)
 hunter_default_version(dest VERSION 0.8.0-p4)
 hunter_default_version(dlib VERSION 19.17-p0)
-hunter_default_version(dlpack VERSION 0.4)
+# however 0.4 is also available, the "DLContext" field is renamed to "DLDevice" in the DLTensor struct.
+# That breaks compatibility with a lot of package (e.g tvm), therefore I decided not to make 0.4 default yet.
+hunter_default_version(dlpack VERSION 0.3)
 hunter_default_version(dmlc-core VERSION 0.3-3943914-p0)
 hunter_default_version(doctest VERSION 2.4.4)
 hunter_default_version(double-conversion VERSION 3.1.4)
