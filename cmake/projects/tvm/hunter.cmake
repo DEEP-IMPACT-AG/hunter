@@ -97,6 +97,17 @@ hunter_add_version(
     0ccc5ef771fcddf8e3ce4534f60917a3c8838fb2
 )
 
+hunter_add_version(
+        PACKAGE_NAME
+        tvm
+        VERSION
+        0.7-t0
+        URL
+        "https://github.com/DEEP-IMPACT-AG/tvm/archive/refs/tags/v0.7.0-t00.tar.gz"
+        SHA1
+        184f874a1d47019150dbe96869b1a7d76377ed06
+)
+
 set(
     __hunter_tvm_cmake_args
     INSTALL_DEV=ON
