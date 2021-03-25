@@ -8,6 +8,17 @@ include(hunter_download)
 include(hunter_pick_scheme)
 
 hunter_add_version(
+        PACKAGE_NAME
+        Clang
+        VERSION
+        "11.1.0-t01"
+        URL
+        "https://github.com/DEEP-IMPACT-AG/llvm-project/releases/download/v11.1.0-t01/clang-1.1.0-t01.src.tar.xz"
+        SHA1
+        3014b9a84980b80d4fd48f268493c2ce54496bdc
+)
+
+hunter_add_version(
     PACKAGE_NAME
     Clang
     VERSION

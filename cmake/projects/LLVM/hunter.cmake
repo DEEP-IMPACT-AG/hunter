@@ -12,6 +12,17 @@ include(hunter_pick_scheme)
 include(hunter_report_broken_package)
 
 hunter_add_version(
+        PACKAGE_NAME
+        LLVM
+        VERSION
+        "11.1.0-t01"
+        URL
+        "https://github.com/DEEP-IMPACT-AG/llvm-project/releases/download/v11.1.0-t01/llvm-1.1.0-t01.src.tar.xz"
+        SHA1
+        b00f962d08f6d18f868d28f97f5a9b465ee5ea41
+)
+
+hunter_add_version(
     PACKAGE_NAME
     LLVM
     VERSION

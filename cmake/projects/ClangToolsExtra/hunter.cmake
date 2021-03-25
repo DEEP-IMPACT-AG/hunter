@@ -8,6 +8,17 @@ include(hunter_download)
 include(hunter_pick_scheme)
 
 hunter_add_version(
+        PACKAGE_NAME
+        ClangToolsExtra
+        VERSION
+        "11.1.0"
+        URL
+        "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.1.0/clang-tools-extra-11.1.0.src.tar.xz"
+        SHA1
+        4ae426d76168ce33051e7d3ede789f217e8c2013
+)
+
+hunter_add_version(
     PACKAGE_NAME
     ClangToolsExtra
     VERSION

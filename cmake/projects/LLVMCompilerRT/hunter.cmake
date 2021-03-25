@@ -8,6 +8,17 @@ include(hunter_download)
 include(hunter_pick_scheme)
 
 hunter_add_version(
+        PACKAGE_NAME
+        LLVMCompilerRT
+        VERSION
+        "11.1.0"
+        URL
+        "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.1.0/compiler-rt-11.1.0.src.tar.xz"
+        SHA1
+        b7bc25d7184eb9471e8432d9a48fedb454a819c7
+)
+
+hunter_add_version(
     PACKAGE_NAME
     LLVMCompilerRT
     VERSION
