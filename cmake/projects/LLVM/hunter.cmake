@@ -15,11 +15,11 @@ hunter_add_version(
         PACKAGE_NAME
         LLVM
         VERSION
-        "11.1.0-t02"
+        "11.1.0-t03"
         URL
-        "https://github.com/DEEP-IMPACT-AG/llvm-project/releases/download/v11.1.0-t02/llvm-11.1.0-t02.src.tar.xz"
+        "https://github.com/DEEP-IMPACT-AG/llvm-project/releases/download/v11.1.0-t03/llvm-11.1.0-t03.src.tar.xz"
         SHA1
-        b2171c7614883a086fe7b19eda1ccd47ccaad55d
+        c93275e4d3c90ec1d9289fa6321757eec98c315a
 )
 
 hunter_add_version(

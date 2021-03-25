@@ -11,11 +11,11 @@ hunter_add_version(
         PACKAGE_NAME
         Clang
         VERSION
-        "11.1.0-t02"
+        "11.1.0-t03"
         URL
-        "https://github.com/DEEP-IMPACT-AG/llvm-project/releases/download/v11.1.0-t02/clang-11.1.0-t02.src.tar.xz"
+        "https://github.com/DEEP-IMPACT-AG/llvm-project/releases/download/v11.1.0-t03/clang-11.1.0-t03.src.tar.xz"
         SHA1
-        0f7f67e663e9c231bfbb6b5a1c077fefb115d571
+        e86cd66bc90538e2460b07140f18509feda38bdd
 )
 
 hunter_add_version(
