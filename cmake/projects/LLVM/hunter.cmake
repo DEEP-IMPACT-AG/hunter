@@ -17,7 +17,7 @@ hunter_add_version(
         VERSION
         "11.1.0-t02"
         URL
-        "https://github.com/DEEP-IMPACT-AG/llvm-project/releases/download/v11.1.0-t01/llvm-11.1.0-t02.src.tar.xz"
+        "https://github.com/DEEP-IMPACT-AG/llvm-project/releases/download/v11.1.0-t02/llvm-11.1.0-t02.src.tar.xz"
         SHA1
         b2171c7614883a086fe7b19eda1ccd47ccaad55d
 )
