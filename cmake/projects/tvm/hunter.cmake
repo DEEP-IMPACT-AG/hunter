@@ -101,11 +101,11 @@ hunter_add_version(
         PACKAGE_NAME
         tvm
         VERSION
-        0.7-t1
+        0.7-t2
         URL
-        "https://github.com/DEEP-IMPACT-AG/tvm/archive/refs/tags/v0.7.0-t01.tar.gz"
+        "https://github.com/DEEP-IMPACT-AG/tvm/archive/refs/tags/v0.7.0-t02.tar.gz"
         SHA1
-        0967a584f79d03ee61e6ae8b8dbe1919f5d185db
+        87a73a77ec31649fa2f4139c31746ba052e54391
 )
 
 set(
