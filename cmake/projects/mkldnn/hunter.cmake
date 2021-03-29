@@ -53,6 +53,18 @@ hunter_add_version(
     50b706789a891f0af17b0e8732a7c1954683403e
 )
 
+hunter_add_version(
+        PACKAGE_NAME
+        mkldnn
+        VERSION
+        1.6.5
+        URL
+        "https://github.com/oneapi-src/oneDNN/archive/refs/tags/v1.6.5.tar.gz"
+        SHA1
+        0ce36a284b9a9a833efea053fb9d156fb62f4e04
+)
+
+
 hunter_cmake_args(
     mkldnn
     CMAKE_ARGS
