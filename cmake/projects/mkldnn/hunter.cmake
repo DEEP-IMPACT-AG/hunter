@@ -57,11 +57,11 @@ hunter_add_version(
         PACKAGE_NAME
         mkldnn
         VERSION
-        1.6.5
+        1.6.5-t0
         URL
-        "https://github.com/oneapi-src/oneDNN/archive/refs/tags/v1.6.5.tar.gz"
+        "https://github.com/DEEP-IMPACT-AG/oneDNN/archive/refs/tags/v1.6.5-t00.tar.gz"
         SHA1
-        0ce36a284b9a9a833efea053fb9d156fb62f4e04
+        5790d45e7d6f293b041f8c5a1d6fb9f05dd6e743
 )
 
 
