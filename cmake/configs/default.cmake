@@ -538,7 +538,9 @@ hunter_default_version(tomcrypt VERSION 1.18.2-p1)
 hunter_default_version(tommath VERSION 1.0.1-p0)
 hunter_default_version(tsl_hat_trie VERSION 0.6.0-1739fa1-p0)
 hunter_default_version(tsl_robin_map VERSION 0.6.3-dc2023b)
-hunter_default_version(tvm VERSION 0.7-t2)
+# however 0.7 is also available, the "NodePtr" field is renamed to "ObjectPtr" in the nnvm namespace.
+# That breaks compatibility with a lot of package (e.g mxnet 1.6), therefore I decided not to make 0.6 default yet.
+hunter_default_version(tvm VERSION 0.6-t0)
 hunter_default_version(type_safe VERSION 0.2.1-p2)
 hunter_default_version(units VERSION 2.3.1)
 hunter_default_version(utf8 VERSION 3.1.1)
