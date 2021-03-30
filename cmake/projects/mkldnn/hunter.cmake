@@ -64,6 +64,16 @@ hunter_add_version(
         5790d45e7d6f293b041f8c5a1d6fb9f05dd6e743
 )
 
+hunter_add_version(
+        PACKAGE_NAME
+        mkldnn
+        VERSION
+        2.2.0-t0
+        URL
+        "https://github.com/DEEP-IMPACT-AG/oneDNN/archive/refs/tags/v2.2.0-t00.tar.gz"
+        SHA1
+        54f9ddb4913cb844499093bc5419f6874426ab3a
+)
 
 hunter_cmake_args(
     mkldnn
