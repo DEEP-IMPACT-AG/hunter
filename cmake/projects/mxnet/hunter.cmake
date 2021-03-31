@@ -75,6 +75,17 @@ hunter_add_version(
     01c400835d280a7ffec86361d17a2a10b3851998
 )
 
+hunter_add_version(
+        PACKAGE_NAME
+        mxnet
+        VERSION
+        1.6.0-t0
+        URL
+        "https://github.com/DEEP-IMPACT-AG/incubator-mxnet/archive/refs/tags/1.6.0-t00.tar.gz"
+        SHA1
+        eac6757f4511e320511c0d024babd1e6e6bdc0f8
+)
+
 set(
     __hunter_mxnet_args
     BUILD_CPP_EXAMPLES=OFF
