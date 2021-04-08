@@ -1,0 +1,1942 @@
+[
+    {
+        "id": 2297987552,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3NTUy",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987552",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987552",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:48Z",
+        "completed_at": "2021-04-08T15:00:35Z",
+        "name": "gstreamer analyze-cxx17 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:48.000Z",
+                "completed_at": "2021-04-08T14:59:51.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:51.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T15:00:35.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:35.000Z",
+                "completed_at": "2021-04-08T15:00:35.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:00:35.000Z",
+                "completed_at": "2021-04-08T15:00:35.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:00:35.000Z",
+                "completed_at": "2021-04-08T15:00:35.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987552"
+    },
+    {
+        "id": 2297987508,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3NTA4",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987508",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987508",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:47Z",
+        "completed_at": "2021-04-08T15:00:49Z",
+        "name": "gstreamer android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:47.000Z",
+                "completed_at": "2021-04-08T14:59:50.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:50.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T15:00:49.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:49.000Z",
+                "completed_at": "2021-04-08T15:00:49.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:00:49.000Z",
+                "completed_at": "2021-04-08T15:00:49.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:00:49.000Z",
+                "completed_at": "2021-04-08T15:00:49.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987508"
+    },
+    {
+        "id": 2297987360,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3MzYw",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987360",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987360",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:48Z",
+        "completed_at": "2021-04-08T15:00:43Z",
+        "name": "gstreamer clang-cxx17 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:48.000Z",
+                "completed_at": "2021-04-08T14:59:53.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:53.000Z",
+                "completed_at": "2021-04-08T15:00:05.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:05.000Z",
+                "completed_at": "2021-04-08T15:00:05.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:05.000Z",
+                "completed_at": "2021-04-08T15:00:05.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:05.000Z",
+                "completed_at": "2021-04-08T15:00:05.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:05.000Z",
+                "completed_at": "2021-04-08T15:00:05.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:05.000Z",
+                "completed_at": "2021-04-08T15:00:42.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:42.000Z",
+                "completed_at": "2021-04-08T15:00:42.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:00:42.000Z",
+                "completed_at": "2021-04-08T15:00:43.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:00:43.000Z",
+                "completed_at": "2021-04-08T15:00:43.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987360"
+    },
+    {
+        "id": 2297987399,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3Mzk5",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987399",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987399",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:48Z",
+        "completed_at": "2021-04-08T15:00:01Z",
+        "name": "gstreamer gcc-7-cxx17 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:48.000Z",
+                "completed_at": "2021-04-08T14:59:51.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:51.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:55.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T15:00:01.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:01.000Z",
+                "completed_at": "2021-04-08T15:00:01.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:00:01.000Z",
+                "completed_at": "2021-04-08T15:00:01.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:00:01.000Z",
+                "completed_at": "2021-04-08T15:00:01.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987399"
+    },
+    {
+        "id": 2297987435,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3NDM1",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987435",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987435",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:49Z",
+        "completed_at": "2021-04-08T15:00:05Z",
+        "name": "gstreamer gcc-8-cxx17-fpic ubuntu-18.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:49.000Z",
+                "completed_at": "2021-04-08T14:59:52.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:52.000Z",
+                "completed_at": "2021-04-08T14:59:57.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T14:59:57.000Z",
+                "completed_at": "2021-04-08T14:59:57.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T14:59:57.000Z",
+                "completed_at": "2021-04-08T14:59:57.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T14:59:57.000Z",
+                "completed_at": "2021-04-08T14:59:57.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T14:59:57.000Z",
+                "completed_at": "2021-04-08T14:59:57.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T14:59:57.000Z",
+                "completed_at": "2021-04-08T15:00:05.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:05.000Z",
+                "completed_at": "2021-04-08T15:00:05.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:00:05.000Z",
+                "completed_at": "2021-04-08T15:00:05.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:00:05.000Z",
+                "completed_at": "2021-04-08T15:00:05.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987435"
+    },
+    {
+        "id": 2297987469,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3NDY5",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987469",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987469",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:48Z",
+        "completed_at": "2021-04-08T15:00:14Z",
+        "name": "gstreamer gcc-9-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:48.000Z",
+                "completed_at": "2021-04-08T14:59:51.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:51.000Z",
+                "completed_at": "2021-04-08T14:59:56.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T14:59:56.000Z",
+                "completed_at": "2021-04-08T14:59:56.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T14:59:56.000Z",
+                "completed_at": "2021-04-08T14:59:56.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T14:59:56.000Z",
+                "completed_at": "2021-04-08T14:59:56.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T14:59:56.000Z",
+                "completed_at": "2021-04-08T14:59:56.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T14:59:56.000Z",
+                "completed_at": "2021-04-08T15:00:13.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:13.000Z",
+                "completed_at": "2021-04-08T15:00:13.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:00:13.000Z",
+                "completed_at": "2021-04-08T15:00:14.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:00:14.000Z",
+                "completed_at": "2021-04-08T15:00:14.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987469"
+    },
+    {
+        "id": 2297987802,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3ODAy",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987802",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987802",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:55Z",
+        "completed_at": "2021-04-08T15:00:52Z",
+        "name": "gstreamer ios-nocodesign-13-2-dep-9-3 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:58.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:58.000Z",
+                "completed_at": "2021-04-08T15:00:10.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:10.000Z",
+                "completed_at": "2021-04-08T15:00:11.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:11.000Z",
+                "completed_at": "2021-04-08T15:00:11.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:11.000Z",
+                "completed_at": "2021-04-08T15:00:11.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:11.000Z",
+                "completed_at": "2021-04-08T15:00:11.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:11.000Z",
+                "completed_at": "2021-04-08T15:00:51.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:51.000Z",
+                "completed_at": "2021-04-08T15:00:51.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:00:51.000Z",
+                "completed_at": "2021-04-08T15:00:52.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:00:52.000Z",
+                "completed_at": "2021-04-08T15:00:52.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987802"
+    },
+    {
+        "id": 2297988078,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg4MDc4",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297988078",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297988078",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:50Z",
+        "completed_at": "2021-04-08T15:01:15Z",
+        "name": "gstreamer mingw-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:50.000Z",
+                "completed_at": "2021-04-08T14:59:53.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:53.000Z",
+                "completed_at": "2021-04-08T15:00:18.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:18.000Z",
+                "completed_at": "2021-04-08T15:00:18.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:18.000Z",
+                "completed_at": "2021-04-08T15:00:18.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:18.000Z",
+                "completed_at": "2021-04-08T15:00:19.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:19.000Z",
+                "completed_at": "2021-04-08T15:00:19.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:19.000Z",
+                "completed_at": "2021-04-08T15:00:19.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:19.000Z",
+                "completed_at": "2021-04-08T15:01:05.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:01:05.000Z",
+                "completed_at": "2021-04-08T15:01:15.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:01:15.000Z",
+                "completed_at": "2021-04-08T15:01:15.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297988078"
+    },
+    {
+        "id": 2297988112,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg4MTEy",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297988112",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297988112",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:50Z",
+        "completed_at": "2021-04-08T15:02:35Z",
+        "name": "gstreamer msys-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:50.000Z",
+                "completed_at": "2021-04-08T14:59:51.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:51.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:16.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:16.000Z",
+                "completed_at": "2021-04-08T15:00:17.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:17.000Z",
+                "completed_at": "2021-04-08T15:00:17.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:17.000Z",
+                "completed_at": "2021-04-08T15:02:26.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:02:26.000Z",
+                "completed_at": "2021-04-08T15:02:35.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:02:35.000Z",
+                "completed_at": "2021-04-08T15:02:35.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297988112"
+    },
+    {
+        "id": 2297987888,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3ODg4",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987888",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987888",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:48Z",
+        "completed_at": "2021-04-08T15:01:08Z",
+        "name": "gstreamer ninja-vs-15-2017-win64-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:48.000Z",
+                "completed_at": "2021-04-08T14:59:50.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:50.000Z",
+                "completed_at": "2021-04-08T15:00:13.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:13.000Z",
+                "completed_at": "2021-04-08T15:00:14.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:14.000Z",
+                "completed_at": "2021-04-08T15:00:14.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:14.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:58.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:00:58.000Z",
+                "completed_at": "2021-04-08T15:01:08.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:01:08.000Z",
+                "completed_at": "2021-04-08T15:01:08.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987888"
+    },
+    {
+        "id": 2297987929,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3OTI5",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987929",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987929",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:49Z",
+        "completed_at": "2021-04-08T15:01:16Z",
+        "name": "gstreamer nmake-vs-15-2017-win64-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:49.000Z",
+                "completed_at": "2021-04-08T14:59:51.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:51.000Z",
+                "completed_at": "2021-04-08T15:00:13.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:13.000Z",
+                "completed_at": "2021-04-08T15:00:13.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:13.000Z",
+                "completed_at": "2021-04-08T15:00:13.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:13.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:01:07.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:01:07.000Z",
+                "completed_at": "2021-04-08T15:01:16.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:01:16.000Z",
+                "completed_at": "2021-04-08T15:01:16.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987929"
+    },
+    {
+        "id": 2297987732,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3NzMy",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987732",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987732",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:55Z",
+        "completed_at": "2021-04-08T15:01:51Z",
+        "name": "gstreamer osx-10-13-cxx14 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:59.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:59.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:01:50.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:01:50.000Z",
+                "completed_at": "2021-04-08T15:01:50.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:01:50.000Z",
+                "completed_at": "2021-04-08T15:01:50.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:01:50.000Z",
+                "completed_at": "2021-04-08T15:01:51.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987732"
+    },
+    {
+        "id": 2297987694,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3Njk0",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987694",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987694",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:55Z",
+        "completed_at": "2021-04-08T15:01:02Z",
+        "name": "gstreamer osx-10-13-make-cxx14 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:58.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:58.000Z",
+                "completed_at": "2021-04-08T15:00:08.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:08.000Z",
+                "completed_at": "2021-04-08T15:00:08.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:08.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:01:00.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:01:00.000Z",
+                "completed_at": "2021-04-08T15:01:00.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:01:00.000Z",
+                "completed_at": "2021-04-08T15:01:01.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:01:01.000Z",
+                "completed_at": "2021-04-08T15:01:02.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987694"
+    },
+    {
+        "id": 2297987761,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3NzYx",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987761",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987761",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:55Z",
+        "completed_at": "2021-04-08T15:01:51Z",
+        "name": "gstreamer osx-10-15-dep-10-10-cxx17 macos-10.15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:55.000Z",
+                "completed_at": "2021-04-08T14:59:58.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:58.000Z",
+                "completed_at": "2021-04-08T15:00:08.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:08.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:01:50.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:01:50.000Z",
+                "completed_at": "2021-04-08T15:01:50.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:01:50.000Z",
+                "completed_at": "2021-04-08T15:01:50.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:01:50.000Z",
+                "completed_at": "2021-04-08T15:01:51.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987761"
+    },
+    {
+        "id": 2297987597,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3NTk3",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987597",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987597",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T15:00:00Z",
+        "completed_at": "2021-04-08T15:00:47Z",
+        "name": "gstreamer sanitize-address-cxx17 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T15:00:00.000Z",
+                "completed_at": "2021-04-08T15:00:03.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T15:00:03.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:09.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:09.000Z",
+                "completed_at": "2021-04-08T15:00:47.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:47.000Z",
+                "completed_at": "2021-04-08T15:00:47.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:00:47.000Z",
+                "completed_at": "2021-04-08T15:00:47.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:00:47.000Z",
+                "completed_at": "2021-04-08T15:00:47.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987597"
+    },
+    {
+        "id": 2297987632,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3NjMy",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987632",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987632",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:50Z",
+        "completed_at": "2021-04-08T15:00:26Z",
+        "name": "gstreamer sanitize-leak-cxx17 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:50.000Z",
+                "completed_at": "2021-04-08T14:59:54.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:54.000Z",
+                "completed_at": "2021-04-08T14:59:59.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T14:59:59.000Z",
+                "completed_at": "2021-04-08T14:59:59.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T14:59:59.000Z",
+                "completed_at": "2021-04-08T14:59:59.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T14:59:59.000Z",
+                "completed_at": "2021-04-08T14:59:59.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T14:59:59.000Z",
+                "completed_at": "2021-04-08T14:59:59.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T14:59:59.000Z",
+                "completed_at": "2021-04-08T15:00:26.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:26.000Z",
+                "completed_at": "2021-04-08T15:00:26.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:00:26.000Z",
+                "completed_at": "2021-04-08T15:00:26.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:00:26.000Z",
+                "completed_at": "2021-04-08T15:00:26.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987632"
+    },
+    {
+        "id": 2297987663,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3NjYz",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987663",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987663",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:50Z",
+        "completed_at": "2021-04-08T15:00:45Z",
+        "name": "gstreamer sanitize-thread-cxx17 ubuntu-16.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:50.000Z",
+                "completed_at": "2021-04-08T14:59:53.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:53.000Z",
+                "completed_at": "2021-04-08T14:59:59.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T14:59:59.000Z",
+                "completed_at": "2021-04-08T14:59:59.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2021-04-08T14:59:59.000Z",
+                "completed_at": "2021-04-08T14:59:59.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2021-04-08T14:59:59.000Z",
+                "completed_at": "2021-04-08T14:59:59.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T14:59:59.000Z",
+                "completed_at": "2021-04-08T14:59:59.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 7,
+                "started_at": "2021-04-08T14:59:59.000Z",
+                "completed_at": "2021-04-08T15:00:45.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:45.000Z",
+                "completed_at": "2021-04-08T15:00:45.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:00:45.000Z",
+                "completed_at": "2021-04-08T15:00:45.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:00:45.000Z",
+                "completed_at": "2021-04-08T15:00:45.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987663"
+    },
+    {
+        "id": 2297988044,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg4MDQ0",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297988044",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297988044",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:50Z",
+        "completed_at": "2021-04-08T15:02:07Z",
+        "name": "gstreamer vs-14-2015-sdk-8-1 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:50.000Z",
+                "completed_at": "2021-04-08T14:59:52.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:52.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:16.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:16.000Z",
+                "completed_at": "2021-04-08T15:00:16.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:16.000Z",
+                "completed_at": "2021-04-08T15:00:16.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:16.000Z",
+                "completed_at": "2021-04-08T15:01:58.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:01:58.000Z",
+                "completed_at": "2021-04-08T15:02:06.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:02:06.000Z",
+                "completed_at": "2021-04-08T15:02:07.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297988044"
+    },
+    {
+        "id": 2297988012,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg4MDEy",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297988012",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297988012",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:50Z",
+        "completed_at": "2021-04-08T15:01:50Z",
+        "name": "gstreamer vs-15-2017-win64-cxx17 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:50.000Z",
+                "completed_at": "2021-04-08T14:59:53.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:53.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:15.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:15.000Z",
+                "completed_at": "2021-04-08T15:00:17.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:17.000Z",
+                "completed_at": "2021-04-08T15:00:17.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:17.000Z",
+                "completed_at": "2021-04-08T15:00:17.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:17.000Z",
+                "completed_at": "2021-04-08T15:01:40.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:01:40.000Z",
+                "completed_at": "2021-04-08T15:01:50.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:01:50.000Z",
+                "completed_at": "2021-04-08T15:01:50.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297988012"
+    },
+    {
+        "id": 2297987967,
+        "run_id": 729962557,
+        "run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/runs/729962557",
+        "node_id": "MDg6Q2hlY2tSdW4yMjk3OTg3OTY3",
+        "head_sha": "b35d07c2b2e2f950e984b937951b328841c89356",
+        "url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/actions/jobs/2297987967",
+        "html_url": "https://github.com/DEEP-IMPACT-AG/hunter/runs/2297987967",
+        "status": "completed",
+        "conclusion": "failure",
+        "started_at": "2021-04-08T14:59:49Z",
+        "completed_at": "2021-04-08T15:01:17Z",
+        "name": "gstreamer vs-16-2019-win64-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2021-04-08T14:59:49.000Z",
+                "completed_at": "2021-04-08T14:59:52.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2021-04-08T14:59:52.000Z",
+                "completed_at": "2021-04-08T15:00:11.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2021-04-08T15:00:11.000Z",
+                "completed_at": "2021-04-08T15:00:11.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2021-04-08T15:00:11.000Z",
+                "completed_at": "2021-04-08T15:00:11.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2021-04-08T15:00:11.000Z",
+                "completed_at": "2021-04-08T15:00:12.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2021-04-08T15:00:12.000Z",
+                "completed_at": "2021-04-08T15:00:12.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2021-04-08T15:00:12.000Z",
+                "completed_at": "2021-04-08T15:00:12.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2021-04-08T15:00:12.000Z",
+                "completed_at": "2021-04-08T15:01:13.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2021-04-08T15:01:13.000Z",
+                "completed_at": "2021-04-08T15:01:17.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2021-04-08T15:01:17.000Z",
+                "completed_at": "2021-04-08T15:01:17.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/DEEP-IMPACT-AG/hunter/check-runs/2297987967"
+    }
+]
