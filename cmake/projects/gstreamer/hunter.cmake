@@ -25,6 +25,18 @@ hunter_add_version(
         PACKAGE_NAME
         gstreamer
         VERSION
+        "1.16.3"
+        URL
+        "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.16.3.tar.xz"
+        SHA1
+        444412ecc323a9c300b4f6b82439b411c2739a32
+)
+
+
+hunter_add_version(
+        PACKAGE_NAME
+        gstreamer
+        VERSION
         "1.18.4"
         URL
         "https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.18.4.tar.xz"
