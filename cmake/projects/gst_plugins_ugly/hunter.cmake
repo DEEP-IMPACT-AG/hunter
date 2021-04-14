@@ -11,6 +11,17 @@ include(hunter_download)
 include(hunter_pick_scheme)
 
 hunter_add_version(
+        PACKAGE_NAME
+        gst_plugins_ugly
+        VERSION
+        1.16.3
+        URL
+        "https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-1.16.3.tar.xz"
+        SHA1
+        cd090bbbf0bc80021383ee7d9e51ba4e4162496c
+)
+
+hunter_add_version(
     PACKAGE_NAME
     gst_plugins_ugly
     VERSION

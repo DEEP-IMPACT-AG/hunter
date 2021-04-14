@@ -11,6 +11,17 @@ include(hunter_download)
 include(hunter_pick_scheme)
 
 hunter_add_version(
+        PACKAGE_NAME
+        gst_plugins_bad
+        VERSION
+        1.16.3
+        URL
+        "https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.16.3.tar.xz"
+        SHA1
+        3fa620367a1124f1675cc87f2d25d2567876d1c5
+)
+
+hunter_add_version(
     PACKAGE_NAME
     gst_plugins_bad
     VERSION
