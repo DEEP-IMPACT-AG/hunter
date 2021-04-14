@@ -65,6 +65,12 @@ hunter_configuration_types(gst_plugins_base CONFIGURATION_TYPES Release)
 hunter_pick_scheme(DEFAULT url_sha1_autotools)
 hunter_cacheable(gst_plugins_base)
 
+if(${HUNTER_gst_plugins_base_VERSION} VERSION_GREATER_EQUAL "1.12")
+  set(ENCODEBIN_ELEMENT "libgstencoding")
+else()
+  set(ENCODEBIN_ELEMENT "libgstencodebin")
+endif()
+
 hunter_download(
     PACKAGE_NAME
     gst_plugins_base
@@ -76,7 +82,7 @@ hunter_download(
     "lib/gstreamer-1.0/libgstaudiorate.la"
     "lib/gstreamer-1.0/libgstaudioresample.la"
     "lib/gstreamer-1.0/libgstaudiotestsrc.la"
-    "lib/gstreamer-1.0/libgstencodebin.la"
+    "lib/gstreamer-1.0/${ENCODEBIN_ELEMENT}.la"
     "lib/gstreamer-1.0/libgstgio.la"
     "lib/gstreamer-1.0/libgstogg.la"
     "lib/gstreamer-1.0/libgstplayback.la"
