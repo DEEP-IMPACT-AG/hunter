@@ -32,11 +32,23 @@ hunter_add_version(
     6ff3f3a7facae861c7687f27055fd9ced7c7fe10
 )
 
+
+set(
+        _gstreamer_components
+        plugins-good
+)
+
+set(_gst_export_targets "")
+foreach(_x ${_gstreamer_components})
+    list(APPEND _gst_export_targets gstreamer-${_x}-1.0)
+endforeach()
+
 hunter_cmake_args(
     gst_plugins_good
     CMAKE_ARGS
     DEPENDS_ON_PACKAGES=gst_plugins_base;xext;Jpeg
     DEPENDS_ON_PKGCONFIGS=gstreamer-plugins-base-1.0 # ???
+    PKGCONFIG_EXPORT_TARGETS=${_gst_export_targets}
 )
 
 hunter_configuration_types(gst_plugins_good CONFIGURATION_TYPES Release)

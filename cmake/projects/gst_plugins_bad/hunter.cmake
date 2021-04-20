@@ -44,9 +44,9 @@ set(
     plugins-bad
 )
 
-set(_gstreamer_pkg "")
+set(_gst_export_targets "")
 foreach(_x ${_gstreamer_components})
-  list(APPEND _gstreamer_pkg gstreamer-${_x}-1.0)
+  list(APPEND _gst_export_targets gstreamer-${_x}-1.0)
 endforeach()
 
 hunter_cmake_args(
@@ -54,7 +54,7 @@ hunter_cmake_args(
     CMAKE_ARGS
     DEPENDS_ON_PACKAGES=gst_plugins_base
     DEPENDS_ON_PKGCONFIGS=gstreamer-plugins-base-1.0 # ???
-    PKGCONFIG_EXPORT_TARGETS=${_gstreamer_pkg}
+    PKGCONFIG_EXPORT_TARGETS=${_gst_export_targets}
 )
 
 hunter_configuration_types(gst_plugins_bad CONFIGURATION_TYPES Release)

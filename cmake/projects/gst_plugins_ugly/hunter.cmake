@@ -32,11 +32,22 @@ hunter_add_version(
     a01ab3ac71bdd0d52e4a120349a8f26fde48f317
 )
 
+set(
+        _gstreamer_components
+        plugins-ugly
+)
+
+set(_gst_export_targets "")
+foreach(_x ${_gstreamer_components})
+    list(APPEND _gst_export_targets gstreamer-${_x}-1.0)
+endforeach()
+
 hunter_cmake_args(
     gst_plugins_ugly
     CMAKE_ARGS
     DEPENDS_ON_PACKAGES=gst_plugins_base
     DEPENDS_ON_PKGCONFIGS=gstreamer-plugins-base-1.0 # ???
+    PKGCONFIG_EXPORT_TARGETS=${_gst_export_targets}
 )
 
 hunter_configuration_types(gst_plugins_ugly CONFIGURATION_TYPES Release)
