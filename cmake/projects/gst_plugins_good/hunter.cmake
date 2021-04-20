@@ -43,6 +43,12 @@ hunter_configuration_types(gst_plugins_good CONFIGURATION_TYPES Release)
 hunter_pick_scheme(DEFAULT url_sha1_autotools)
 hunter_cacheable(gst_plugins_good)
 
+if(${HUNTER_gst_plugins_base_VERSION} VERSION_GREATER_EQUAL "1.12")
+    set(oss4audiolib "lib/gstreamer-1.0/libgstoss4.la")
+else()
+    set(oss4audiolib "lib/gstreamer-1.0/libgstoss4audio.la")
+endif()
+
 hunter_download(
     PACKAGE_NAME
     gst_plugins_good
@@ -79,7 +85,7 @@ hunter_download(
     "lib/gstreamer-1.0/libgstmultifile.la"
     "lib/gstreamer-1.0/libgstmultipart.la"
     "lib/gstreamer-1.0/libgstnavigationtest.la"
-    "lib/gstreamer-1.0/libgstoss4audio.la"
+    ${oss4audiolib}
     "lib/gstreamer-1.0/libgstossaudio.la"
     "lib/gstreamer-1.0/libgstreplaygain.la"
     "lib/gstreamer-1.0/libgstrtp.la"
