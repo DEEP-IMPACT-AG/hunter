@@ -47,7 +47,7 @@ hunter_cmake_args(
     gst_plugins_good
     CMAKE_ARGS
     DEPENDS_ON_PACKAGES=gst_plugins_base;xext;Jpeg
-    DEPENDS_ON_PKGCONFIGS=gstreamer-plugins-base-1.0 # ???
+#    DEPENDS_ON_PKGCONFIGS=gstreamer-plugins-base-1.0 # ???
     PKGCONFIG_EXPORT_TARGETS=${_gst_export_targets}
 )
 
