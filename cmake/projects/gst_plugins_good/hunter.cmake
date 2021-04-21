@@ -115,5 +115,4 @@ hunter_download(
     "lib/gstreamer-1.0/libgstwavenc.la"
     "lib/gstreamer-1.0/libgstwavparse.la"
     "lib/gstreamer-1.0/libgsty4menc.la"
-    "lib/pkgconfig/gstreamer-plugins-good-1.0.pc"
 )
