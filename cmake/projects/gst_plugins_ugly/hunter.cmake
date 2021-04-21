@@ -64,4 +64,5 @@ hunter_download(
     "lib/gstreamer-1.0/libgstdvdsub.la"
     "lib/gstreamer-1.0/libgstrmdemux.la"
     "lib/gstreamer-1.0/libgstxingmux.la"
+    "lib/pkgconfig/gstreamer-plugins-ugly-1.0.pc"
 )
