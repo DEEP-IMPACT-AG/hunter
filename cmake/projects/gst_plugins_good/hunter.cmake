@@ -103,4 +103,5 @@ hunter_download(
     "lib/gstreamer-1.0/libgstwavenc.la"
     "lib/gstreamer-1.0/libgstwavparse.la"
     "lib/gstreamer-1.0/libgsty4menc.la"
+    "lib/gstreamer-1.0/libgstximagesrc.la"
 )
