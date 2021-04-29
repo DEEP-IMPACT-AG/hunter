@@ -56,8 +56,8 @@ endforeach()
 hunter_cmake_args(
     gst_plugins_base
     CMAKE_ARGS
-    DEPENDS_ON_PACKAGES=gstreamer;libogg;x11
-    DEPENDS_ON_PKGCONFIGS=gstreamer-1.0
+    DEPENDS_ON_PACKAGES=gstreamer;libogg;x11;xv
+    DEPENDS_ON_PKGCONFIGS=gstreamer-1.0;xv
     PKGCONFIG_EXPORT_TARGETS=${_gst_export_targets}
 )
 
