@@ -11,6 +11,17 @@ include(hunter_download)
 include(hunter_cmake_args)
 
 hunter_add_version(
+        PACKAGE_NAME
+        PostgreSQL
+        VERSION
+        "13.2-t0"
+        URL
+        "https://github.com/DEEP-IMPACT-AG/postgres/archive/refs/tags/v13.2-t0.tar.gz"
+        SHA1
+        669556747bea54768cf94526eb63090ab7f228f5
+)
+
+hunter_add_version(
     PACKAGE_NAME
     PostgreSQL
     VERSION
