@@ -66,18 +66,6 @@ hunter_configuration_types(gst_plugins_bad CONFIGURATION_TYPES Release)
 hunter_pick_scheme(DEFAULT url_sha1_autotools)
 hunter_cacheable(gst_plugins_bad)
 
-###########################################################
-# All variables
-
-message("==== ALL VARIABLES  ===========================")
-get_cmake_property(_variableNames VARIABLES)
-list (SORT _variableNames)
-foreach (_variableName ${_variableNames})
-  message(STATUS "${_variableName}=${${_variableName}}")
-endforeach()
-message("==== END OF ALL VARIABLES  ===========================")
-
-
 hunter_download(
     PACKAGE_NAME
     gst_plugins_bad
