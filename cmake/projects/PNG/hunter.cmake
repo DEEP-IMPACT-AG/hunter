@@ -102,11 +102,11 @@ hunter_add_version(
         PACKAGE_NAME
         PNG
         VERSION
-        "1.6.36-t2"
+        "1.6.36-t3"
         URL
-        "https://github.com/DEEP-IMPACT-AG/libpng/archive/refs/tags/v1.6.36-t2.tar.gz"
+        "https://github.com/DEEP-IMPACT-AG/libpng/archive/refs/tags/v1.6.36-t3.tar.gz"
         SHA1
-        cced5427b273a97e74d86eff464db180e7af6cde
+        c7499ac9cd7008bb0d4f460428d79ad12e2d3bec
 )
 
 hunter_cmake_args(PNG CMAKE_ARGS PNG_TESTS=OFF)
