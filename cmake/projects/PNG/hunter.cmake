@@ -118,4 +118,5 @@ hunter_download(
         PACKAGE_INTERNAL_DEPS_ID "1"
         PACKAGE_UNRELOCATABLE_TEXT_FILES
         "lib/pkgconfig/libpng.pc"
+        "lib/pkgconfig/libpng16.pc"
         )
