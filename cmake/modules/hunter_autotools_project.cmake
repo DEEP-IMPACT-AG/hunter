@@ -85,12 +85,12 @@ function(hunter_autotools_project target_name)
       CFLAGS
       CXXFLAGS
       LDFLAGS
-      BOOTSTRAP
   )
   set(multi_value_params
       PACKAGE_CONFIGURATION_TYPES
       EXTRA_FLAGS
       PATCH_COMMAND
+      BOOTSTRAP
   )
   cmake_parse_arguments(
       PARAM
@@ -175,6 +175,8 @@ function(hunter_autotools_project target_name)
     )
 
     set(configure_command ${shell_env} ${autotools_configure_command})
+
+    message("AutoTools: Bootstrap command: ${PARAM_BOOTSTRAP} Configure command: ${configure_command} Build command: ${build_command}")
 
     ExternalProject_Add(${target_name}
         URL
