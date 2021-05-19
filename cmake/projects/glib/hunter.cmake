@@ -11,6 +11,17 @@ include(hunter_download)
 include(hunter_pick_scheme)
 
 hunter_add_version(
+        PACKAGE_NAME
+        glib
+        VERSION
+        2.58.3
+        URL
+        "https://download.gnome.org/sources/glib/2.58/glib-2.58.3.tar.xz"
+        SHA1
+        9499377d09ad52d94b4ab9f38c4040e9dce875e5
+)
+
+hunter_add_version(
     PACKAGE_NAME
     glib
     VERSION
@@ -21,21 +32,28 @@ hunter_add_version(
     96b434a9ca142344b93f38ed0cd88d36196b68ae
 )
 
-hunter_configuration_types(glib CONFIGURATION_TYPES Release)
+set(_BOOTSTRAP)
+
+if(${HUNTER_glib_VERSION} VERSION_GREATER_EQUAL "2.58")
+    #2.58 does not deliver a configure script, it has to be generated
+    set(_BOOTSTRAP ${CMAKE_COMMAND} -E env NOCONFIGURE\\=TRUE ./autogen.sh)
+endif()
 
 hunter_cmake_args(
     glib
     CMAKE_ARGS
+    BOOTSTRAP=${_BOOTSTRAP}
     DEPENDS_ON_PACKAGES=libffi;util_linux;libpcre;ZLIB
     DEPENDS_ON_PKGCONFIGS=libffi;blkid;fdisk;mount;smartcols;uuid;libpcre;libpcrecpp;libpcreposix
     PKGCONFIG_EXPORT_TARGETS=glib-2.0
 )
 
+hunter_configuration_types(glib CONFIGURATION_TYPES Release)
 hunter_pick_scheme(DEFAULT url_sha1_autotools)
 hunter_cacheable(glib)
 hunter_download(
     PACKAGE_NAME glib
-    PACKAGE_INTERNAL_DEPS_ID "2"
+    PACKAGE_INTERNAL_DEPS_ID "3"
     PACKAGE_UNRELOCATABLE_TEXT_FILES
     "bin/glib-gettextize"
     "lib/libgio-2.0.la"
