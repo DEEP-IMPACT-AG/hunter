@@ -29,6 +29,9 @@ hunter_cmake_args(
     DEPENDS_ON_PKGCONFIGS=gstreamer-plugins-base-1.0 # ???
 )
 
+#In order to find NASM
+set(ENV{PATH} "${HUNTER_INSTALL_PREFIX}/bin:$ENV{PATH}")
+
 hunter_configuration_types(gst_libav CONFIGURATION_TYPES Release)
 hunter_pick_scheme(DEFAULT url_sha1_autotools)
 hunter_cacheable(gst_libav)
