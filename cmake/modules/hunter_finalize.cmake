@@ -79,6 +79,12 @@ macro(hunter_finalize)
   set(HUNTER_INSTALL_PREFIX "${HUNTER_CONFIG_ID_PATH}/Install")
   list(APPEND CMAKE_PREFIX_PATH "${HUNTER_INSTALL_PREFIX}")
 
+  # Create directory if not exist
+  # Rationale: if it does not exists cmake based projects create it by themself, but if your first package is
+  #   based on autotools, you will receive the following error:
+  #     make: *** No rule to make target '/home/ubuntu/hunterRepos/hunter/_Base/xxxxxxx/1aee45d/e7e4eac/Install'.  Stop.
+  file(MAKE_DIRECTORY ${HUNTER_INSTALL_PREFIX})
+
   # Override pkg-config default search path
   # https://github.com/ruslo/hunter/issues/762
   if(NOT MSVC)
