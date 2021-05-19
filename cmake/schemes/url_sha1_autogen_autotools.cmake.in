@@ -4,7 +4,8 @@
 cmake_minimum_required(VERSION 3.0)
 project(Hunter)
 
-list(APPEND CMAKE_MODULE_PATH "@HUNTER_SELF@/cmake/modules")
+#list(APPEND CMAKE_MODULE_PATH "@HUNTER_SELF@/cmake/modules")
+include("@HUNTER_SELF@/cmake/Hunter")
 
 include(hunter_user_error)
 include(hunter_status_debug)
@@ -17,6 +18,10 @@ if("@MSVC@")
   hunter_user_error("Autotools scheme not supported with Visual Studio")
 endif()
 
+foreach(dependency ${DEPENDS_ON_PACKAGES})
+  hunter_add_package(${dependency})
+endforeach()
+
 # Check preconditions
 hunter_assert_not_empty_string("@HUNTER_SELF@")
 hunter_assert_not_empty_string("@HUNTER_EP_NAME@")
@@ -28,9 +33,12 @@ hunter_assert_not_empty_string("@HUNTER_PACKAGE_BUILD_DIR@")
 hunter_assert_not_empty_string("@HUNTER_PACKAGE_INSTALL_PREFIX@")
 hunter_assert_not_empty_string("@HUNTER_INSTALL_PREFIX@")
 
-foreach(dependency ${DEPENDS_ON_PACKAGES})
-  hunter_add_package(${dependency})
-endforeach()
+set(
+        HUNTER_PACKAGE_UNRELOCATABLE_TEXT_FILES
+        "@HUNTER_PACKAGE_UNRELOCATABLE_TEXT_FILES@"
+)
+
+message(" EP NAME: @HUNTER_EP_NAME@ URL: @HUNTER_PACKAGE_URL@ DOWNLOADDIR: @HUNTER_PACKAGE_DOWNLOAD_DIR@ SRCDIR: @HUNTER_PACKAGE_SOURCE_DIR@ BDIR: @HUNTER_PACKAGE_BUILD_DIR@ IDIR: @HUNTER_PACKAGE_INSTALL_PREFIX@ GIDIR: @HUNTER_INSTALL_PREFIX@ PJOBS: @HUNTER_INSTALL_PREFIX@ CONFIG_TYPES: @HUNTER_PACKAGE_CONFIGURATION_TYPES@ PKGCONFIGTYPES: @HUNTER_PACKAGE_CONFIGURATION_TYPES@  EXTRAFLAGS: ${EXTRA_FLAGS} BOOTSTRAP: ${BOOTSTRAP}")
 
 hunter_autotools_project("@HUNTER_EP_NAME@"
     HUNTER_SELF
@@ -53,6 +61,8 @@ hunter_autotools_project("@HUNTER_EP_NAME@"
       "@HUNTER_JOBS_OPTION@"
     PACKAGE_CONFIGURATION_TYPES
       "@HUNTER_PACKAGE_CONFIGURATION_TYPES@"
+    EXTRA_FLAGS
+      "${EXTRA_FLAGS}"
     BOOTSTRAP
       "./autogen.sh"
 )
